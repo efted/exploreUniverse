@@ -8,5 +8,18 @@
     <artifactId>exploreEarth</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <dependencies>
+        <!--Mysql 驱动依赖-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+        <!--log4j日志依赖-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.12</version>
+        </dependency>
+    </dependencies>
 </project>
